@@ -24,12 +24,13 @@
     },
     "gas-wallets": {
       "name": "Gas & Wallets",
-      "status": "in_progress",
-      "currentQuestion": 0
+      "status": "completed",
+      "method": "answered"
     },
     "minting-exploring": {
       "name": "Minting & Exploring NFTs",
-      "status": "pending"
+      "status": "completed",
+      "method": "answered"
     }
   }
 }
