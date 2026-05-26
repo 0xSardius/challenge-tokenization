@@ -9,16 +9,18 @@
     },
     "state-constructor": {
       "name": "Token State & Constructor",
-      "status": "in_progress",
-      "currentQuestion": 0
+      "status": "completed",
+      "method": "answered"
     },
     "minting": {
       "name": "Minting NFTs",
-      "status": "pending"
+      "status": "completed",
+      "method": "answered"
     },
     "overrides": {
       "name": "Inheritance & Overrides",
-      "status": "pending"
+      "status": "in_progress",
+      "currentQuestion": 0
     },
     "gas-wallets": {
       "name": "Gas & Wallets",
