@@ -25,6 +25,27 @@ contract YourCollectible
         return tokenId;
     }
 
-    // TODO[overrides]: Override functions will be added here
-    // Complete the "Inheritance & Overrides" checkpoint to unlock
+    // Override functions from OpenZeppelin ERC721, ERC721Enumerable and ERC721URIStorage
+
+    function _update(
+        address to,
+        uint256 tokenId,
+        address auth
+    ) internal override(ERC721, ERC721Enumerable) returns (address) {
+        return super._update(to, tokenId, auth);
+    }
+
+    function _increaseBalance(address account, uint128 value) internal override(ERC721, ERC721Enumerable) {
+        super._increaseBalance(account, value);
+    }
+
+    function tokenURI(uint256 tokenId) public view override(ERC721, ERC721URIStorage) returns (string memory) {
+        return super.tokenURI(tokenId);
+    }
+
+    function supportsInterface(
+        bytes4 interfaceId
+    ) public view override(ERC721, ERC721Enumerable, ERC721URIStorage) returns (bool) {
+        return super.supportsInterface(interfaceId);
+    }
 }

@@ -19,12 +19,13 @@
     },
     "overrides": {
       "name": "Inheritance & Overrides",
-      "status": "in_progress",
-      "currentQuestion": 0
+      "status": "completed",
+      "method": "answered"
     },
     "gas-wallets": {
       "name": "Gas & Wallets",
-      "status": "pending"
+      "status": "in_progress",
+      "currentQuestion": 0
     },
     "minting-exploring": {
       "name": "Minting & Exploring NFTs",
