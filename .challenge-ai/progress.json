@@ -1,0 +1,32 @@
+{
+  "challenge": "Tokenization",
+  "version": "1.0",
+  "checkpoints": {
+    "erc721-imports": {
+      "name": "ERC-721 & Imports",
+      "status": "completed",
+      "method": "answered"
+    },
+    "state-constructor": {
+      "name": "Token State & Constructor",
+      "status": "in_progress",
+      "currentQuestion": 0
+    },
+    "minting": {
+      "name": "Minting NFTs",
+      "status": "pending"
+    },
+    "overrides": {
+      "name": "Inheritance & Overrides",
+      "status": "pending"
+    },
+    "gas-wallets": {
+      "name": "Gas & Wallets",
+      "status": "pending"
+    },
+    "minting-exploring": {
+      "name": "Minting & Exploring NFTs",
+      "status": "pending"
+    }
+  }
+}
